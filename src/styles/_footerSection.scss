@@ -1,12 +1,17 @@
 .footer-section {
     &__container {
-
     background-color: #293347;
     color: #fff;
-    padding: 5% 5% 10% 5%;
+    padding: 10% 10% 5% 10%;
     text-align: center;
-
     position: relative;
     bottom: 0;
     } 
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .footer-section__container {
+    padding: 5% 20% 5% 20%;
+  }
 }

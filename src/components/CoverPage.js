@@ -11,7 +11,6 @@ export default class CoverPage extends Component {
                     </span>
                 </span>
                 <div className="avatar-image animated tada delay-1s"></div>
-                <div className="tools-image"></div>
             </div>
         )
     }

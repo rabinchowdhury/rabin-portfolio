@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
 
-import CoverPage from './components/CoverPage';
-import AboutSection from './components/AboutSection';
-import WorkSection from './components/WorkSection';
-import FooterSection from './components/FooterSection';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Header from "./components/Header";
+
+import HomePage from './components/HomePage';
+import WorkPage from './components/WorkPage';
+import AboutPage from './components/AboutPage';
 
 class App extends Component {
 
   render() {
     return (
+      <Router>
+      <Header />
       <div className="App">
-        <CoverPage />
-        <AboutSection />
-        <WorkSection />
-        <FooterSection />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/work-page" component={WorkPage} />
+        <Route exact path="/about-page" component={AboutPage} />
+
       </div>
+      </Router>
     );
   }
 }

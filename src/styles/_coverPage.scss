@@ -1,48 +1,43 @@
 .cover-page {
-    background-color: #ffffff;
-    height: 100vh;
+    background-color: #fff;
+    height: 80vh;
     width: auto;
-
     &__container {
-        padding: 10% 10% 5% 10%;
+        padding: 15% 10% 5% 10%;
         display: flex;
         align-items: center;
         justify-content: center;
-
         flex-direction: column;
     }
-
     &__text {
         background-color: #fff;
         text-align: center;
+        p {
+            font-size: 1.2em;
+        }
+    }
+} 
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .cover-page__container {
+        padding-top: 5%;
+    }
+    .avatar-image {   
+        margin-top: -2%;
+    }
+    .tools-image {
+        height: 80%;
+        margin-top: 20%; 
     }
 }
 
 .avatar-image {   
     width: 100%;
     height: 30%;
-
     background-image: url('../images/avatar-image.png');
-
     background-repeat: no-repeat;
     background-position: center; 
-
     background-size: contain;
-
     position: absolute;
-}
-
-.tools-image {   
-    width: auto;
-    height: 100%;
-
-    background-image: url('../images/tools-image.png');
-
-    background-repeat: no-repeat;
-    background-position: center; 
-
-    background-size: contain;
-
-    position: relative;
-
 }

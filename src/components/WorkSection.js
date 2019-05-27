@@ -7,7 +7,7 @@ export default class WorkSection extends Component {
                 <div className="row">
                     <div className=" work-section__table--one col-md">
                         <h4>Front-end Developer</h4>
-                        <p>I can create elegant user interfaces that'll attract the attention of clients and customers.</p>
+                        <p>I can create elegant user interfaces that'll attract the attention of the clients.</p>
                         <h4>Languages I Speak:</h4>
                         <p>HTML, CSS, JavaScript</p>
                         <h4>Things I'm familiar with:</h4>
