@@ -31,7 +31,7 @@ class Header extends Component {
     return (
       <div className="container">
         <Navbar light expand="md">
-          <NavbarBrand href="/">React.dev</NavbarBrand>
+          <NavbarBrand href="/">RABIN.DEV</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="mr-auto" navbar>
@@ -39,10 +39,10 @@ class Header extends Component {
                 <NavLink href="/"></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/work-page">WORK</NavLink>
+                <NavLink href="/work-page">Work</NavLink>
               </NavItem> 
               <NavItem>
-                <NavLink href="/about-page">ABOUT</NavLink>
+                <NavLink href="/about-page">About</NavLink>
               </NavItem>          
             </Nav>
           </Collapse>
